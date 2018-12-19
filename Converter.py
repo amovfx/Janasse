@@ -20,6 +20,6 @@ def convert(video, call=True, ext='tga'):
     globpath[1] = '*'
     globpath[2] = ext
     globpath = ".".join(globpath)
-    print globpath
+
     return globpath
 

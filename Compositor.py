@@ -18,7 +18,6 @@ def getVideoClip(video):
 def getTitles(video,fps=24):
     titles = convert(video, call=False, ext='png')
     titleGlob = sorted(glob.glob(titles))
-    print "titleGlob:", titleGlob
     TitleClip = ImageSequenceClip(titleGlob, fps=fps)
     return TitleClip
 
