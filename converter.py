@@ -3,7 +3,7 @@
 import os
 import subprocess as sp
 
-from Inputs import getVideos, getTitles
+from inputs import getVideos, getTitles
 
 
 icp = os.path.join(os.getenv('HFS'),'bin', 'icp')

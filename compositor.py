@@ -1,8 +1,8 @@
 
 from moviepy.editor import *
 
-from Inputs import getVideos
-from Converter import convert
+from inputs import getVideos
+from converter import convert
 
 import subprocess
 import glob
@@ -74,6 +74,15 @@ if __name__ == '__main__':
 
         #upload to vimeo
         #upload to youtube
+        #generate btc donation addy
+        #generate lightning addy
+        #upload to ipfs
+        #tweet
+        #instagram
+        #image caption
+        #upload to website
+        #
+
 
 
 
